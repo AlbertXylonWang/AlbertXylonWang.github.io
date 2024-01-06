@@ -37,12 +37,9 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        I am a student at the <b>University of Texas at Austin</b> majoring in <b>Electrical and Computer Engineering</b>.
+        I am actively seeking a <b>Software Development</b> or <b>Embedded Systems</b> internship for Summer 2024.
+        A few words to describe me would be that I am a <b>hard-working</b>, <b>dedicated</b>, and <b>passionate</b> individual who is always looking to learn new things and improve myself.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

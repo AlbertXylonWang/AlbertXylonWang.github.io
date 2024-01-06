@@ -53,9 +53,10 @@ const ProjectCard = ({
             <div className="absolute inset-0 flex justify-end m-3">
               <div
                 onClick={() => window.open(repo, '_blank')}
+                style={{ visibility: repo === '' ? 'hidden' : 'visible' }}
                 className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
-                  flex justify-center items-center cursor-pointer
-                  sm:opacity-[0.9] opacity-[0.8]">
+                flex justify-center items-center cursor-pointer
+                sm:opacity-[0.9] opacity-[0.8]">
                 <img
                   src={github}
                   alt="source code"
@@ -84,6 +85,7 @@ const ProjectCard = ({
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
+              style={{ visibility: demo === '' ? 'hidden' : 'visible' }}
               onClick={() => window.open(demo, '_blank')}
               onMouseOver={() => {
                 document
@@ -101,7 +103,7 @@ const ProjectCard = ({
                 className="btn-icon sm:w-[34px] sm:h-[34px] 
                   w-[30px] h-[30px] object-contain"
               />
-              LIVE DEMO
+              LIVE
             </button>
           </div>
         </>
@@ -124,11 +126,11 @@ const Projects = () => {
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          These projects demonstrate my expertise with practical examples of
-          some of my work, including brief descriptions and links to code
-          repositories and live demos. They showcase my ability to tackle
-          intricate challenges, adapt to various technologies, and efficiently
-          oversee projects.
+          These projects demonstrate my skills with practical examples of
+          some of my work. They include brief descriptions with some also having links
+          to their code repositories and live demos. These projects display my
+          wide range of skills and interests, and they implicate my curiosity-driven
+          nature and my ability to efficiently learn new technologies.
         </motion.p>
       </div>
 

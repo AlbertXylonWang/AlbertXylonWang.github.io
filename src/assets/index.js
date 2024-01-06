@@ -8,8 +8,12 @@ import logo from './logo/logo-black.png';
 
 
 import backend from './icons/backend.png';
-import ux from './icons/ux.png';
+import embedded from './icons/embedded.png';
 import frontend from './icons/frontend.png';
+import gamedev from './icons/gamedev.png';
+import python from './icons/python.png';
+import java from './icons/java.png';
+import cplus from './icons/c++.png';
 import prototyping from './icons/prototyping.png';
 import github from './icons/github.png';
 import close from './icons/close.png';
@@ -37,17 +41,12 @@ import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
-
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+import msxu from './company/x.png';
+import sunnyminded from './company/sunnyminded.png';
+import softhardware from './projects/softhardware.png';
+import astroparty from './projects/astroparty.png';
+import danceextension from './projects/danceextension.png';
+import frogwall from './projects/frogwall.png';
 
 export {
   bwmap,
@@ -56,8 +55,12 @@ export {
   worldmap,
   logo,
   backend,
-  ux,
+  embedded,
   frontend,
+  gamedev,
+  python,
+  java,
+  cplus,
   prototyping,
   github,
   close,
@@ -83,14 +86,10 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  danceextension,
+  astroparty,
+  softhardware,
+  frogwall,
+  msxu,
+  sunnyminded,
 };
