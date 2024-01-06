@@ -11,7 +11,7 @@ Personal Portfolio website made by AlbertXylonWang
 ## Attribution
 
 Design was based off a portfolio template made by Shaquille Ndunda
-
+Icons are from Icons8.com
 ## Live Demo
 
 - Click [here](https://AlbertXylonWang.github.io/) to view the live demo.
